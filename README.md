@@ -1,4 +1,5 @@
 Technologies: Core Java, OOP, Collections, Exception Handling, Multithreading, File I/O
+
 Tools: Eclipse/IntelliJ, Git, JDK 8+
 
 
