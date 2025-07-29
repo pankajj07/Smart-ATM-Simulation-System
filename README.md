@@ -1,21 +1,52 @@
-Technologies: Core Java, OOP, Collections, Exception Handling, Multithreading, File I/O
+# 💳 Smart ATM Simulation System (SASS)
 
-Tools: Eclipse/IntelliJ, Git, JDK 8+
+A **Core Java-based console project** that simulates ATM operations with secure login, transaction features, and data management. This project demonstrates key object-oriented principles and core Java concepts including exception handling, multithreading, collections, interfaces, and file I/O.
+
+---
+
+## 📌 Features
+
+- 🔐 **User Authentication**
+  - Secure PIN-based login
+  - PIN validation and account locking mechanism
+  
+- 💰 **ATM Functionalities**
+  - Balance Inquiry
+  - Cash Withdrawal
+  - Cash Deposit
+  - Mini Statement (Last 5 transactions)
+  - PIN Change
+  - Exit/Logout
+
+- 🧠 **Technical Highlights**
+  - Uses **OOP principles**: Inheritance, Abstraction, Polymorphism, Encapsulation
+  - Implements **Interfaces** for modular design
+  - Handles **Checked & Unchecked Exceptions**
+  - Uses **Java Collections** like `ArrayList`, `HashMap` for data management
+  - Simulates **thread-based delays** during processing
+  - Persists data using **file handling**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** Java (JDK 8+)
+- **IDE:** IntelliJ IDEA / Eclipse
+- **Build Tool:** None (Simple Console App)
+- **Data Storage:** File-based (No DB used)
+
+---
+
+## 📂 Project Structure
 
 
 
-**Key Features & Responsibilities:**
 
-Applied Object-Oriented Programming principles to design reusable classes (User, ATMImplementation, etc.) and implemented the ATMOperations interface.
 
-Used Collections Framework (HashMap, Queue, ArrayList) for dynamic account and transaction management.
+---
 
-Implemented Custom Exceptions (InvalidPinException, InsufficientBalanceException) to handle domain-specific errors gracefully.
+## 🚀 How to Run
 
-Developed Multithreading simulation to represent concurrent ATM access by multiple users.
-
-Applied File I/O for simulating persistent storage of user data and transaction logs (optional enhancement).
-
-Designed an Admin module for viewing and managing user accounts (optional enhancement).
-
-Built a secure login system with PIN verification and automatic account locking after multiple failed attempts.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/Smart-ATM-Simulation-System.git
